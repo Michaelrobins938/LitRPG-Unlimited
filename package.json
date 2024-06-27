@@ -1,0 +1,26 @@
+{
+  "name": "LitRPG_Unlimited",
+  "version": "1.0.0",
+  "description": "LitRPG Unlimited Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.5.3",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.8.0",
+    "socket.io": "^4.5.4",
+    "speakeasy": "^2.0.0"
+  },
+  "author": "Michael Robins",
+  "license": "ISC"
+}
